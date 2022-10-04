@@ -21,7 +21,13 @@ No one needs it 😂
  `Home page`
 ![](https://github.com/kunaljainwin/Starflix/blob/e41f7dcfd31288fa2c834f241cd90f5477fd34d1/home_ss.png)
  `Recommending`
+ 
+ 
 ![](https://github.com/kunaljainwin/Starflix/blob/7a4ce83ef340f66e11de6c1ec13f1b1f3881aeaf/recommend_ss.png)
+
+
+https://user-images.githubusercontent.com/72144717/193879992-449c975e-2904-45a4-a203-1b542bdc5fc9.mp4
+
 
                      💗💗 
 `Would push your pulls and love to hear from you`
