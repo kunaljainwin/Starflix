@@ -1,6 +1,7 @@
-var API_KEY="13dd37dacddc8386206af363b173bdc9";
-// const API_KEY={YOUR_API_KEY};
-const BACKENDLINK=""
+import API_KEY from "./secrets";
+
+
+
 const requests = {
   fetchMonetized: `/discover/movie?api_key=${API_KEY}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_watch_monetization_types=flatrate`,
   fetchLatest: `/movie/latest?api_key=${API_KEY}&language=en-US `,

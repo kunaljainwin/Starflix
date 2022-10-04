@@ -41,7 +41,8 @@ function Dropdown(){
   },[])
   const submit= function sumbit(){
     if(document.getElementById("movie").value!==""){
-      // window.scrollBy(0, 101);
+      if(window.scrollY<100)
+        window.scrollBy(0, 101);
     
       fetch(BASE_URL+"/processed_data/"+document.getElementById("movie").value).then(res=>res.json().then(
         
