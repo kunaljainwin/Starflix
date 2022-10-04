@@ -31,6 +31,26 @@ No one needs it 😂
 https://user-images.githubusercontent.com/72144717/193883673-aee18cf2-b991-4785-bbe0-3ea7555a647e.mp4
 
 
+# Contribution guidelines
+ We kept those same rules in 2021 and will be doing the same this year, continually refining them based on feedback from the community to ensure Hacktoberfest is a positive experience.
+
+As part of our continued dedication to providing a high-quality, helpful experience that brings the open source community together, we have the following rules for this year:
+
+Maintainers must opt-in to Hacktoberfest by adding the 'hacktoberfest' topic to their participating repository/project in GitHub or GitLab or by applying the 'hacktoberfest-accepted' label to individual PR/MRs.
+Spammy PR/MRs will be labeled. If the PR/MR has any label that contains the word 'spam', then it will be treated as spam and will not be counted for Hacktoberfest. Users that have two or more spam PR/MRs will be permanently disqualified.
+PR/MRs only count once accepted by a maintainer. Maintainers of opted-in projects can accept PR/MRs from contributors by merging them, giving them an overall approving review, or labeling them as ‘hacktoberfest-accepted’.
+We’ve instituted a reporting system for bad repositories. The Hacktoberfest community can let us know about repositories designed to cheat Hacktoberfest. 
+We’ve reduced the emphasis on the t-shirt and winning a prize. Instead, we’re focused on how to bring communities together to improve open source for all in a positive way.
+
+
+# Getting started
+
+To complete Hacktoberfest, you must contribute four accepted pull requests or merge requests to opted-in repos on GitHub or GitLab, but we encourage participation of all levels–you can also participate by completing a single PR/MR, making a donation to your favorite open-source project, or organizing or attending a virtual event. Participants (maintainers and contributors) who complete Hacktoberfest can choose one of two prizes: a tree planted in their name or the Hacktoberfest 2022 t-shirt, while supplies last.
+
+# Code of Conduct
+
+!(https://www.digitalocean.com/blog/hacktoberfest-2022-your-mission-for-open-source)
+
 
 
                  
