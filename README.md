@@ -22,13 +22,12 @@ No one needs it 😂
 ![](https://github.com/kunaljainwin/Starflix/blob/e41f7dcfd31288fa2c834f241cd90f5477fd34d1/home_ss.png)
  `Recommending`
  
- 
 ![](https://github.com/kunaljainwin/Starflix/blob/7a4ce83ef340f66e11de6c1ec13f1b1f3881aeaf/recommend_ss.png)
 
 
 
 
 
-                     💗💗 
+                    💗💗 
 `Would push your pulls and love to hear from you`
     
