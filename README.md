@@ -1,3 +1,4 @@
+ ```Will Accept every Push which makes this project better you can even add to documentation ```
  `Home`
 ![](https://github.com/kunaljainwin/Starflix/blob/e41f7dcfd31288fa2c834f241cd90f5477fd34d1/home_ss.png)
 ## Vision
