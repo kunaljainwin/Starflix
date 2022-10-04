@@ -1,9 +1,11 @@
-api url : https://api.themoviedb.org/3/movie/76341?api_key=<<api_key>>
-api_key = 13dd37dacddc8386206af363b173bdc9
-Application url :starflix-movies-5a210.web.app  ,https://starflix-movies-5a210.firebaseapp.com/ 
+# Frontend
+##api url : https://api.themoviedb.org/3/movie/76341?api_key=<<api_key>>
 
-Working on 👉 Get all the movies
-const requests = {
+##api_key = x3ddxxdxxddxx386xx6afxx3xx73bdxx
+
+`👉 Get all the movies`
+
+``const requests = {
   fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
   fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
   fetchTopRated: `/movie/top_rated?api_key=${API_KEY}&language=en-US`,
@@ -12,18 +14,26 @@ const requests = {
   fetchHorrorMovies: `/discover/movie?api_key=${API_KEY}&with_genres=27`,
   fetchRomanceMovies: `/discover/movie?api_key=${API_KEY}&with_genres=10749`,
   fetchDocumantaries: `/discover/movie?api_key=${API_KEY}&with_genres=99`
-}
+}``
 
-npm i axios
+`npm i axios`
 
-👉Build the Rows
-rfce es7
+`👉Build the Rows`
 
-   // react hook
-    const [movies,setMovies]=useState([])
+// react hook
+ 
+const [movies,setMovies]=useState([])
+
+`👉Build the Banner`
+
+`👉Build the Youtube Player`
+
+`👉Build the Model using panda `
+
+`👉Build the Apis for getting :`
+ - List of movies
+ - Recommended movies
+ 
 
 
-    
-👉Build the Banner
-👉Build the 
 
