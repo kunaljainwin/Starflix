@@ -1,0 +1,31 @@
+.Wrapper{
+    /* margin: 20px; */
+    /* padding: 10px; */
+    /* border-radius: 20px; */
+    /* height: 80%; */
+    /* padding: auto; */
+    width: 100%;
+    
+    /* scroll-behavior: auto; */
+    /* width: 194.4px; */
+    align-self: center;
+    /* width: 50%; */
+}
+#dropdown-search{
+  
+  /* width: 100px; */
+    /* height: 200px; */
+    /* margin-right: 0; */
+  }
+
+#single-movie{
+    /* display: flex; */
+    /* display: flex; */
+    /* flex-direction: row-reverse; */
+    
+
+  }
+#hide{
+    visibility: none;
+    display: hidden;
+}

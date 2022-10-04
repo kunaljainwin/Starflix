@@ -1,0 +1,60 @@
+.banner{
+margin: 0;
+
+}
+.banner-title{
+    margin-left: 30px;
+    padding-top: 10%;
+    color: rgb(255, 255, 255);
+    padding-bottom: 1%;
+    font-size: 3rem;
+}
+.banner-buttons{
+    margin-left: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-description{
+    margin-left: 30px;
+    
+    margin-right: 40%;
+
+
+    color: rgb(255, 255, 255);
+}
+.fade-bottom{
+    height:100px;
+    margin-bottom: 0;
+    background-image: linear-gradient(
+      180deg,transparent,rgba(37,37,37,0.61),
+        #111
+    );
+}
+.button{
+  background-color: rgba(231, 219, 219, 0.1);
+  border-radius: 8px;
+  border: none;
+  margin: 10px;
+  padding: 10px;
+  color: #ff0000;
+  cursor: pointer;
+  display: block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue",  Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+}
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+}
