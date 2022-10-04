@@ -1,4 +1,5 @@
-
+ `Home`
+![](https://github.com/kunaljainwin/Starflix/blob/e41f7dcfd31288fa2c834f241cd90f5477fd34d1/home_ss.png)
 ## Vision
 `Problem` : Plethora of movies, web-series, Documentaries to choose from to watch one .
 
