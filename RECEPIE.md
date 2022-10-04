@@ -3,7 +3,7 @@
 
 ##api_key = x3ddxxdxxddxx386xx6afxx3xx73bdxx
 
-##Working on 👉 Get all the movies
+👉 Get all the movies
 
 `const requests = {
   fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
