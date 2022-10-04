@@ -1,7 +1,9 @@
 
 ## Vision
 Problem : Plethora of movies, web-series, Documentaries to choose from to watch one .
+
 Solution : To create a website where  users can quickly make choice .
+
 
 
 # Getting Started with Create React App
