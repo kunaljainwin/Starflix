@@ -29,7 +29,7 @@ https://user-images.githubusercontent.com/72144717/193883673-aee18cf2-b991-4785-
 
 
 
-                    💗💗 
+                 
                      
-`Would push your pulls and love to hear from you`
+   💗💗 `Would push your pulls and love to hear from you`
     
