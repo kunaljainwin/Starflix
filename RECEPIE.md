@@ -3,7 +3,7 @@
 
 ##api_key = x3ddxxdxxddxx386xx6afxx3xx73bdxx
 
-👉 Get all the movies
+`👉 Get all the movies`
 
 `const requests = {
   fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
@@ -24,15 +24,16 @@
  
 const [movies,setMovies]=useState([])
 
-👉Build the Banner
+`👉Build the Banner`
 
-👉Build the Youtube Player
+`👉Build the Youtube Player`
 
-👉Build the Model using panda 
+`👉Build the Model using panda `
 
-👉Build the Apis for getting :
-### List of movies
-### Recommended movies
+`👉Build the Apis for getting :
+ - List of movies
+ - Recommended movies`
+ 
 
 
 
