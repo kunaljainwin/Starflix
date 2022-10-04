@@ -18,16 +18,18 @@ rultimatrix@gmail.com (Kunal jain(Scrum Master))
 ## User manual
 No one needs it 😂
 
- `Home page`
+ `Home`
 ![](https://github.com/kunaljainwin/Starflix/blob/e41f7dcfd31288fa2c834f241cd90f5477fd34d1/home_ss.png)
- `Recommending`
- 
+ `Recommendation`
 ![](https://github.com/kunaljainwin/Starflix/blob/7a4ce83ef340f66e11de6c1ec13f1b1f3881aeaf/recommend_ss.png)
 
+
+https://user-images.githubusercontent.com/72144717/193883673-aee18cf2-b991-4785-bbe0-3ea7555a647e.mp4
 
 
 
 
                     💗💗 
+                     
 `Would push your pulls and love to hear from you`
     
