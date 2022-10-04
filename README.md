@@ -1,16 +1,17 @@
 
 ## Vision
-Problem : Plethora of movies, web-series, Documentaries to choose from to watch one .
+`Problem` : Plethora of movies, web-series, Documentaries to choose from to watch one .
 
-Solution : To create a website where  users can quickly make choice .
+`Solution` : To create a website where  users can quickly make choice .
 
 
 ## Project overview
-A website to get recommendations, find trending movies and shows, Watch movie-trailers at one click. Made for binge as well as casual watchers.
+`A website to get recommendations, find trending movies and shows, Watch movie-trailers at one click. Made for binge as well as casual watchers.`
 
 ## System Requirements
-To use app : A browser
-To clone this app follow : [Recepie.md](https://github.com/kunaljainwin/Starflix/blob/master/RECEPIE.md)
+`To use app` : A browser
+
+`To clone this app follow `: [Recepie.md](https://github.com/kunaljainwin/Starflix/blob/master/RECEPIE.md)
 
 ## Customer Support 
 rultimatrix@gmail.com (Kunal jain(Scrum Master))
