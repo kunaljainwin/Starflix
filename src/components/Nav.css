@@ -1,39 +1,37 @@
-.nav{
-    height: 10%;
-    display: flex;
-    width: 100%;
-    top: 0;
-    justify-content: space-between;
-    position:sticky;
-    z-index: 1;
-    background-color: black;
-    transition-timing-function: ease-in;
-    transition: all 0.5s;
+.nav {
+  height: 10%;
+  display: flex;
+  width: 100%;
+  top: 0;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 1;
+  background-color: black;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
 }
-.nav-hide{
-    height: 10%;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    
-    background-color: transparent;
-    position: fixed;
-    
+.nav-hide {
+  height: 10%;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: transparent;
+  position: fixed;
 }
 .App-logo {
   margin: 1%;
-    height: 6vmin;
+  height: 7vmin;
+  pointer-events: none;
+  align-self: center;
+}
+.avatar {
+  margin: 1%;
+  height: 6vmin;
+  border-radius: 40px;
+  pointer-events: none;
+  align-self: center;
+}
 
-    pointer-events: none;
-  }
-  .avatar{
-    margin: 1%;
-      height: 6vmin;
-      border-radius: 40px;
-      pointer-events: none;
-    }
-  
-  .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-    
-  }
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+}
