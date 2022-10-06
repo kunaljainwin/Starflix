@@ -47,12 +47,12 @@ const [movies,setMovies]=useState([])
 `👉Build the Youtube Player`
 
 # Backend 
-`👉Get these databases from Kaggle `
+### 👉Get these databases from Kaggle
 ```https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv```
 
-`👉Build the Model using panda `
+### 👉Build the Model using panda 
 
-`👉Build the Apis for getting :`
+### 👉Build the Apis for getting :
  - List of movies
  - Recommended movies
  
