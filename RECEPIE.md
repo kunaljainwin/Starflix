@@ -9,10 +9,7 @@ export {BASE_URL}
 export default API_KEY
 
 ```
-### Install modules through terminal
-```
-npm install
-```
+
 
 # Frontend 
 For API Documentation :[Getting started](https://developers.themoviedb.org/3/getting-started/introduction)
@@ -50,7 +47,8 @@ const [movies,setMovies]=useState([])
 ### 👉Get these databases from Kaggle
 ```https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv```
 
-### 👉Build the Model using panda 
+### 👉Build the Model
+```npm install```
 
 ### 👉Build the Apis for getting :
  - List of movies
