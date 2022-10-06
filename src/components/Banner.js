@@ -18,7 +18,7 @@ const[movie,setMovie]=useState([]);
   return (
  <header className='banner' style={{
      backgroundSize:"cover",
-     
+     boxShadow: "20px 38px 40px -4px rgba(0,0,0,0.75)",
      backgroundImage:`url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
      backgroundPosition:"top center"
 
