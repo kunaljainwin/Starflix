@@ -1,5 +1,5 @@
 # Frontend
-For API Documentation :[THE MOVIE DATABASE](https://developers.themoviedb.org/3/getting-started/introduction)
+For API Documentation :[Getting started](https://developers.themoviedb.org/3/getting-started/introduction)
 
 ##api url : https://api.themoviedb.org/3/movie/76341?api_key=<<api_key>>
 
