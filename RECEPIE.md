@@ -1,4 +1,20 @@
-# Frontend
+### You will have to add a file under /src directory "secret.js"
+```
+const API_KEY="13dxxxxxcddc83xxx06af363b173xxxx";
+// const API_KEY={YOUR_API_KEY};
+const BASE_URL="http://localhost:8000"
+
+export {BASE_URL}
+
+export default API_KEY
+
+```
+### Install modules through terminal
+```
+npm install
+```
+
+# Frontend 
 For API Documentation :[Getting started](https://developers.themoviedb.org/3/getting-started/introduction)
 
 ##api url : https://api.themoviedb.org/3/movie/76341?api_key=<<api_key>>
@@ -29,6 +45,9 @@ const [movies,setMovies]=useState([])
 `👉Build the Banner`
 
 `👉Build the Youtube Player`
+
+# Backend 
+`👉Get these databases from Kaggle `
 
 `👉Build the Model using panda `
 
