@@ -7,7 +7,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from apis.recommend import recommend
 from apis.stemmer import *
-# from flask_cors import CORS, cross_origin
+from flask_cors import CORS, cross_origin
 # x = datetime.datetime.now()
 
 # # Initializing flask app
@@ -15,12 +15,12 @@ from apis.stemmer import *
 
 
 app = Flask(__name__)
-# CORS(app, support_credentials=True)
+CORS(app, support_credentials=True)
 
-# @app.route("/login")
-# @cross_origin(supports_credentials=True)
-# def login():
-#   return jsonify({'success': 'ok'})
+@app.route("/login")
+@cross_origin(supports_credentials=True)
+def login():
+  return jsonify({'success': 'ok'})
 
 @app.route("/",methods=['GET'])
 def hello_world():
@@ -98,6 +98,6 @@ def get_recommendation_processed(movie):
 
    
 # Running app
-if __name__ == '__main__':
-  # debug=True
-	app.run(host='0.0.0.0', port=5000)
+# if __name__ == '__main__':
+#   # 
+# 	app.run(port=8000)
