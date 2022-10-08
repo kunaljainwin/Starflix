@@ -1,5 +1,4 @@
 # Import flask and datetime module for showing date and time
-from unittest import result
 from flask import Flask,jsonify
 import numpy as np
 import pandas as pd
@@ -8,7 +7,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from apis.recommend import recommend
 from apis.stemmer import *
-from flask_cors import CORS, cross_origin
+# from flask_cors import CORS, cross_origin
 # x = datetime.datetime.now()
 
 # # Initializing flask app
@@ -16,12 +15,12 @@ from flask_cors import CORS, cross_origin
 
 
 app = Flask(__name__)
-CORS(app, support_credentials=True)
+# CORS(app, support_credentials=True)
 
-@app.route("/login")
-@cross_origin(supports_credentials=True)
-def login():
-  return jsonify({'success': 'ok'})
+# @app.route("/login")
+# @cross_origin(supports_credentials=True)
+# def login():
+#   return jsonify({'success': 'ok'})
 
 @app.route("/",methods=['GET'])
 def hello_world():
@@ -33,7 +32,7 @@ def get_list():
   list=movies["title"].to_list()
   return jsonify(list)
    
-@app.route('/data/<string:movie>')
+@app.route('/data/<string:movie>',methods=['GET'])
 def get_recommendation(movie):
 # Returning an api for showing in reactjs
  movies=pd.read_csv("data/tmdb_5000_movies.csv")
@@ -85,7 +84,8 @@ def get_recommendation(movie):
  list=recommend(df,similarity,movie)
  return jsonify(list) 
 	
-@app.route('/processed_data/<string:movie>')
+ 
+@app.route('/processed_data/<string:movie>',methods=['GET'])
 def get_recommendation_processed(movie):
  df=pd.read_csv("data/processed_data/processed.csv")
  cv=CountVectorizer(max_features=5000,stop_words='english')
@@ -99,4 +99,5 @@ def get_recommendation_processed(movie):
    
 # Running app
 if __name__ == '__main__':
-	app.run(host='0.0.0.0', port=8000, debug=True)
+  # debug=True
+	app.run(host='0.0.0.0', port=5000)

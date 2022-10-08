@@ -31,19 +31,18 @@ function Row({title,fetchUrl}) {
 
 
     }, [fetchUrl]);
+    const handleClick=(movie)=>{
+      if (trailerUrl) {
+        setTrailerUrl('');
+      }
+      else {
+        movieTrailer(movie?.name || movie?.title || movie?.original_title || "",{ tmdbId: movie.id }).then((url) => { 
+          const uri = new URLSearchParams(new URL(url).search);
+          setTrailerUrl( uri.get('v'));
   
-  const handleClick=(movie)=>{
-    if (trailerUrl) {
-      setTrailerUrl('');
+        }).catch((error) => console.log(error));
+      }
     }
-    else {
-      movieTrailer(movie?.name || movie?.title || movie?.original_title || "",{ tmdbId: movie.id }).then((url) => { 
-        const uri = new URLSearchParams(new URL(url).search);
-        setTrailerUrl( uri.get('v'));
-
-      }).catch((error) => console.log(error));
-    }
-  }
   
   return (
     <div className='row'>
