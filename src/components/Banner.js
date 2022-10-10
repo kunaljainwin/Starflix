@@ -36,7 +36,7 @@ const[movie,setMovie]=useState([]);
         </div>
 
      {/* description */}
-     <p className='banner-description'>{  movie.overview}</p>
+     <p  className='banner-description'>{  movie.overview}</p>
      <div className='fade-bottom'></div>
 
  </header>

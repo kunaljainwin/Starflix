@@ -27,7 +27,7 @@ function Dropdown(){
       fetch(BASE_URL+"/all").then(res=>res.json().then(
    
         data=>{
-          console.table("data",data);
+          // console.table("data",data);
          
           setmovieslist(data)
         }
@@ -38,6 +38,7 @@ function Dropdown(){
     }
     return () => {
       window.removeEventListener("scroll",()=>{  handleShow(false)})
+      
           }
     
   },[])
@@ -49,7 +50,7 @@ function Dropdown(){
       fetch(BASE_URL+"/processed_data/"+document.getElementById("movie").value).then(res=>res.json().then(
         
       data=>{
-        console.table("data",data);
+        // console.table("data",data);
        
         setData(data)
       }
