@@ -1,26 +1,30 @@
-
 import React, { useEffect, useState } from "react";
 import { BASE_URL } from "../secrets";
-import "./dropdown.css"
+import "./dropdown.css";
 import Movie from "./movie";
 
-function Dropdown(){
-  const [data,setData]=useState([]);
-  
-  const [movieslist,setmovieslist]=useState([]);
-  const[show,handleShow]=useState(false);
+function Dropdown() {
+  const [data, setData] = useState([]);
 
-  useEffect(()=>{
-    window.addEventListener("scroll",()=>{
-      if(window.scrollY>100){
-          handleShow(true);
-      }
-      else{
-          handleShow(false);
-          setData([])
-          document.getElementById("movie").value=""
+  const [movieslist, setmovieslist] = useState([]);
+  const [show, handleShow] = useState(false);
 
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        handleShow(true);
+      } else {
+        handleShow(false);
+        setData([]);
+        document.getElementById("movie").value = "";
       }
+    });
+    if (data.length == 0) {
+      fetch(BASE_URL + "/all").then((res) =>
+        res
+          .json()
+          .then((data) => {
+            console.table("data", data);
 
   })
     if(data.length==0){
@@ -38,7 +42,6 @@ function Dropdown(){
     }
     return () => {
       window.removeEventListener("scroll",()=>{  handleShow(false)})
-      
           }
     
   },[])
@@ -50,7 +53,7 @@ function Dropdown(){
       fetch(BASE_URL+"/processed_data/"+document.getElementById("movie").value).then(res=>res.json().then(
         
       data=>{
-        // console.table("data",data);
+        console.table("data",data);
        
         setData(data)
       }

@@ -1,30 +1,42 @@
-import axios from '../axios';
-import React, { useEffect, useState } from 'react'
-import requests from '../request';
-import "./Banner.css"
+import axios from "../axios";
+import React, { useEffect, useState } from "react";
+import requests from "../request";
+import "./Banner.css";
 function Banner() {
-const[movie,setMovie]=useState([]);
-    useEffect(() => {
-      async function fetchData(){
-          const req = await axios.get(requests.fetchNetflixOriginals);
-          setMovie(req.data.results[Math.floor(Math.random()*20)])
-          return req;
-      }
+  const [movie, setMovie] = useState([]);
+  useEffect(() => {
+    async function fetchData() {
+      const req = await axios.get(requests.fetchNetflixOriginals);
+      setMovie(req.data.results[Math.floor(Math.random() * 20)]);
+      return req;
+    }
 
     fetchData();
-    
-    }, []);
-    
+  }, []);
+
   return (
- <header className='banner' style={{
-     backgroundSize:"cover",
-     boxShadow: "20px 38px 40px -4px rgba(0,0,0,0.75)",
-     backgroundImage:`url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
-     backgroundPosition:"top center"
+    <header
+      className="banner"
+      style={{
+        backgroundSize: "cover",
+        boxShadow: "20px 38px 40px -4px rgba(0,0,0,0.75)",
+        backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
+        backgroundPosition: "top center",
+      }}
+    >
+      {/* image */}
 
- }}>
-          {/* image */}
+      {/* title */}
+      <h1 className="banner-title">
+        {movie?.name || movie?.title || movie?.original_name}
+      </h1>
+      {/* div 2 buttons */}
+      <div className="banner-buttons">
+        <button className="button">PLAY</button>
+        <button className="button">FAVOURITES</button>
+      </div>
 
+<<<<<<< HEAD
      {/* title */}
      <h1 className='banner-title'  >{movie?.name||movie?.title||movie?.original_name}</h1>
      {/* div 2 buttons */}
@@ -41,6 +53,13 @@ const[movie,setMovie]=useState([]);
 
  </header>
   )
+=======
+      {/* description */}
+      <p className="banner-description">{movie.overview}</p>
+      <div className="fade-bottom"></div>
+    </header>
+  );
+>>>>>>> da70bea7a701fc8991e83f726664d9713ed9c74e
 }
 
-export default Banner
+export default Banner;
