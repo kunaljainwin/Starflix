@@ -36,30 +36,11 @@ function Banner() {
         <button className="button">FAVOURITES</button>
       </div>
 
-<<<<<<< HEAD
-     {/* title */}
-     <h1 className='banner-title'  >{movie?.name||movie?.title||movie?.original_name}</h1>
-     {/* div 2 buttons */}
-     <div className='banner-buttons'> 
-
-     <button className='button'>PLAY</button>
-     <button className='button'>FAVOURITES</button>
-
-        </div>
-
-     {/* description */}
-     <p  className='banner-description'>{  movie.overview}</p>
-     <div className='fade-bottom'></div>
-
- </header>
-  )
-=======
       {/* description */}
       <p className="banner-description">{movie.overview}</p>
       <div className="fade-bottom"></div>
     </header>
   );
->>>>>>> da70bea7a701fc8991e83f726664d9713ed9c74e
 }
 
 export default Banner;

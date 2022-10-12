@@ -27,19 +27,18 @@ function Dropdown() {
             console.table("data", data);
 
   })
-    if(data.length==0){
-      fetch(BASE_URL+"/all").then(res=>res.json().then(
+     , fetch(BASE_URL+"/all").then(res=>res.json().then(
    
         data=>{
-          // console.table("data",data);
+          console.table("data",data);
          
           setmovieslist(data)
         }
       ).catch((err)=>console.log(err))
   
   
-      )
-    }
+      ))}
+    
     return () => {
       window.removeEventListener("scroll",()=>{  handleShow(false)})
           }
