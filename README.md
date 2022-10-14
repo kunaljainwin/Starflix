@@ -17,17 +17,18 @@
 ## System Requirements
 `To use app` : A browser
 
-`To clone this app follow `: [Recepie.md](https://github.com/kunaljainwin/Starflix/blob/master/RECEPIE.md)
+`To clone this app follow `: [RECEPIE.md](https://github.com/kunaljainwin/Starflix/blob/master/RECEPIE.md)
 
 ## Customer Support 
-rultimatrix@gmail.com (Kunal jain(Scrum Master))
+
+```rultimatrix@gmail.com```   (Kunal jain(Scrum Master))
 
 ## User manual
-No one needs it 😂
+*Under construction*😂
 
- `Home`
+ ## `Home`
 ![](https://github.com/kunaljainwin/Starflix/blob/e41f7dcfd31288fa2c834f241cd90f5477fd34d1/home_ss.png)
- `Recommendation`
+ ## `Recommendation`
 ![](https://github.com/kunaljainwin/Starflix/blob/7a4ce83ef340f66e11de6c1ec13f1b1f3881aeaf/recommend_ss.png)
 
 
@@ -53,10 +54,6 @@ To complete Hacktoberfest, you must contribute four accepted pull requests or me
 # Code of Conduct
 
  [Link to Digital ocean ](https://www.digitalocean.com/blog/hacktoberfest-2022-your-mission-for-open-source)
-
-
-
-                 
-                     
-   💗💗 `Would push your pulls and love to hear from you`
+               
+  # 💗💗 `Would push your pulls and love to hear from you`  💗💗
     
