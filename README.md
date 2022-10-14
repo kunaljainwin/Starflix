@@ -1,5 +1,8 @@
+   #  [App link](starflix-movies-5a210.firebaseapp.com)
 ## Submit 4 PR's here , and enjoy your swags💥
 ### Will Accept every Push which makes this project better you can even add to documentation 
+
+
  `Home`
 ![](https://github.com/kunaljainwin/Starflix/blob/e41f7dcfd31288fa2c834f241cd90f5477fd34d1/home_ss.png)
 ## Vision
@@ -49,7 +52,7 @@ To complete Hacktoberfest, you must contribute four accepted pull requests or me
 
 # Code of Conduct
 
-!(https://www.digitalocean.com/blog/hacktoberfest-2022-your-mission-for-open-source)
+![Link](https://www.digitalocean.com/blog/hacktoberfest-2022-your-mission-for-open-source)
 
 
 
