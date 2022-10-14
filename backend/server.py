@@ -11,27 +11,11 @@ from flask_cors import CORS, cross_origin
 # x = datetime.datetime.now()
 
 # # Initializing flask app
-# app = Flask(__name__)
-
 
 app = Flask(__name__)
 CORS(app, support_credentials=True)
 
 # @app.route("/login")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @cross_origin(supports_credentials=True)
 def login():
@@ -86,7 +70,6 @@ def get_recommendation(movie):
  
  #stem
  df['tags']=df['tags'].apply(stem)
- #
 
  df.to_csv("data/processed_data/processed.csv")
  
