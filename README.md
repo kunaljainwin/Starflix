@@ -52,7 +52,7 @@ To complete Hacktoberfest, you must contribute four accepted pull requests or me
 
 # Code of Conduct
 
-![Link](https://www.digitalocean.com/blog/hacktoberfest-2022-your-mission-for-open-source)
+ [Link to Digital ocean ](https://www.digitalocean.com/blog/hacktoberfest-2022-your-mission-for-open-source)
 
 
 
