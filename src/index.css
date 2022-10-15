@@ -8,6 +8,20 @@ body {
   background-color: black;
 }
 
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ff0000;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #d00000;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
