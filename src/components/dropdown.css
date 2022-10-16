@@ -1,4 +1,4 @@
-.Wrapper{
+/* .Wrapper{ */
     /* margin: 20px; */
     /* padding: 10px; */
     /* border-radius: 20px; */
@@ -7,29 +7,29 @@
     
     /* scroll-behavior: auto; */
     /* width: 194.4px; */
-    align-self: center;
+    /* align-self: center; */
     /* width: 50%; */
-}
-#dropdown-search{
+/* } */
+/* #dropdown-search{ */
   
   /* width: 100px; */
     /* height: 200px; */
     /* margin-right: 0; */
-  }
+  /* } */
 
-#single-movie{
+/* #single-movie{ */
     /* display: flex; */
     /* display: flex; */
     /* flex-direction: row-reverse; */
     
 
-  }
-#hide{
+  /* } */
+/* #hide{
     visibility: none;
     display: hidden;
-}
+} */
 
-.input{
+/* .input{
   position: relative;
   width: 300px;
   height: 25px;
@@ -44,4 +44,129 @@
 
 .input :hover{
   filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+} */
+
+/* .dropdown__container *{
+  color: white;
+} */
+
+/*============================================================================ */
+
+/* -------------Dropdown edits start here / your original code above ^^^ */
+
+.dropdown__container{
+ /* margin: 0 auto; */
+ /* background-color: #E64A19; */
+ width: 800px;
+ height: 60px;
+ color: white;
+
 }
+
+.dropdown__wrapper ul{
+  position: relative;
+}
+
+
+
+.dropdown__movies--list li {
+	/* display:inline-block; */
+  display:inline-block;
+  /* flex-direction: row; */
+
+	}
+
+  /* orange color bordered on right side during hover*/
+  .dropdown__movies--list li:hover{
+    border-right: 5px solid orange;
+    color: orange;
+    
+  }
+
+
+
+  /* makes dropdown menu drop with display block*/
+  a {
+    display:block;
+    padding:0px 1rem;	
+    font-size:1rem;
+    line-height: 70px;
+    text-decoration:none;
+    color:#FFF;
+  }
+/* Changes colors when hovering text*/
+  a:hover { 
+    background-color: #000000; 
+    color: orange;
+  }
+
+  /* sets the popup box's position and makes invisible until hover */
+  .dropdown__movies--list ul {
+    display: none;
+    position: absolute; 
+  }
+
+  
+   /* enables visibility again for dropdown when hovering*/
+  li:hover > ul {
+    display:inherit;
+    background-color: #000000; 
+}
+
+    /* sets the width of popup box*/
+    .dropdown__movies--list ul li {
+      display:list-item;
+      list-style: none;
+      width:150px;
+  
+    }
+
+
+  .searchbar__container{
+    outline: none;
+    
+    display:inline;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 25px;
+    
+  }
+
+  .searchbar__container button{
+   border: none;
+  
+   
+  }
+
+  .searchbar__input{
+    width: 120px;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    /* width: 100px; */
+  }
+
+
+/* --Hamburger menu dropdown idea--- Just for suggestion */
+
+  @media screen and (max-width: 900px) {
+    .dropdown__container{
+      position: absolute;
+      margin: 0;
+      padding: 0;
+      width: 150px;
+    }
+    .dropdown__wrapper{
+      display: flex;
+      flex-direction: column;
+      background-color: red;
+    }
+
+    ul ul {
+      display: none;
+      position: absolute; 
+      top: 30px;
+      left: 150px;
+    }
+  }
