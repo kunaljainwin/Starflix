@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { BASE_URL } from "../secrets";
-import "./dropdown.css";
+import "../components/dropdown.css";
 import Movie from "./movie";
 
 function Dropdown() {
@@ -62,7 +62,7 @@ function Dropdown() {
     return ( 
         <div className="Wrapper">
           {/* <label>Choose your browser from the list:</label> */}
-          <input list="movies" name="movie" id="movie" onSubmit={submit} onSelect={submit}/>
+          <input className="input" list="movies" name="movie" id="movie" onSubmit={submit} onSelect={submit} placeholder="Search..."/>
           <datalist id="movies" className="dropdown-search">{
             movieslist.map((movie,i)=>{
               return (<option key={i} value={movie}/>);
