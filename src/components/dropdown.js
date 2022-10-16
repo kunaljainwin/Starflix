@@ -19,7 +19,7 @@ function Dropdown() {
         document.getElementById("movie").value = "";
       }
     });
-    if (data.length == 0) {
+    if (data.length === 0) {
       fetch(BASE_URL + "/all").then((res) =>
         res
           .json()
@@ -43,7 +43,7 @@ function Dropdown() {
       window.removeEventListener("scroll",()=>{  handleShow(false)})
           }
     
-  },[])
+  },[data.length]);
   const submit= function sumbit(){
     if(document.getElementById("movie").value!==""){
       if(window.scrollY<100)
@@ -62,8 +62,8 @@ function Dropdown() {
     return ( 
         <div className="Wrapper">
           {/* <label>Choose your browser from the list:</label> */}
-          <input className="input" list="movies" name="movie" id="movie" onSubmit={submit} onSelect={submit} placeholder="Search..."/>
-          <datalist id="movies" className="dropdown-search">{
+          <input className="input" list="movies" name="movie" className="dropdown-search" id="movie" onSubmit={submit} onSelect={submit} placeholder="Search..." placeholder="  Movie name"/>
+          <datalist id="movies" >{
             movieslist.map((movie,i)=>{
               return (<option key={i} value={movie}/>);
 
