@@ -31,13 +31,7 @@ transition: 3ms;
     /* margin-right: 0; */
   }
 
-#single-movie{
-    /* display: flex; */
-    /* display: flex; */
-    /* flex-direction: row-reverse; */
-    
 
-  }
 #hide{
     visibility: none;
     display: hidden;

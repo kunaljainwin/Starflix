@@ -62,7 +62,7 @@ function Dropdown() {
     return ( 
         <div className="Wrapper">
           {/* <label>Choose your browser from the list:</label> */}
-          <input className="input" list="movies" name="movie" className="dropdown-search" id="movie" onSubmit={submit} onSelect={submit} placeholder="Search..." placeholder="  Movie name"/>
+          <input className="input" list="movies" name="movie"  id="movie" onSubmit={submit} onSelect={submit} placeholder="Search Movie..." />
           <datalist id="movies" >{
             movieslist.map((movie,i)=>{
               return (<option key={i} value={movie}/>);
