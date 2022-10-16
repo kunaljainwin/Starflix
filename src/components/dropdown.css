@@ -10,7 +10,21 @@
     align-self: center;
     /* width: 50%; */
 }
-#dropdown-search{
+.dropdown-search:hover{
+    background-color: #f2f2f2;
+    cursor: pointer;
+    transform: scale(1.05);
+    /* transform:rotate3d(1,1,1,360deg); */
+transition: 3ms;
+}
+
+.dropdown-search{
+  border-radius: 6px;
+  border:none;
+  font-weight: bold;
+  font-size: 16px;
+  cursor:text;
+  padding: 1px;
   
   /* width: 100px; */
     /* height: 200px; */
@@ -30,7 +44,6 @@
 }
 
 .input{
-  position: relative;
   width: 300px;
   height: 25px;
   }
