@@ -24,7 +24,14 @@
 ```rultimatrix@gmail.com```   (Kunal jain(Scrum Master))
 
 ## User manual
-*Under construction*😂
+The Starflix landing page resembles most other entertainment streaming apps so there should be some familiarity for the user.
+
+The is a featured show/movie at the top of the page, and each row after that consists of a series of shows/movies belonging to specific categories denoted by the title above each row.
+Each show/movie poster shows the cover art for that title and IMDB rating in the top right-hand corner.
+
+Clicking on one of the title posters opens a player below that where the trailer for that title plays. Clicking on a title while the a trailer is playing will close the currently playing trailer and the landing page will go back to its original state.
+
+These categories can be browsed by the user as they are shown; however, the user may also search for specific titles.
 
  ## `Home`
 ![](https://github.com/kunaljainwin/Starflix/blob/e41f7dcfd31288fa2c834f241cd90f5477fd34d1/home_ss.png)
