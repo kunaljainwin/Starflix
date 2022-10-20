@@ -61,7 +61,30 @@ To see the full documentation for each endpoint, refer to [TMDB's official websi
 
 #### 👉 Build the Rows
 
-*Under construction...*
+Each of the category rows are created from the same row component. Each row has a series of show/movie titles as well as a row title. The series of titles are rendered by iterating over the list of movies and creating a new movie component for each title.
+
+```
+  return (
+    <div className='row'>
+        {/* title */}
+        <h2 className='title' >{title}</h2>
+
+        <div className='row-posters' >
+          {/* several row posters */}
+          {movies.map((movie,i)=>{
+            return <div className='row_div'>
+                <img key={i} className="row_poster" src={base_url+movie.poster_path} onClick={()=>handleClick(movie)} alt={movie.name} ></img>
+                <p className='row_div_rating'>{(movie.vote_average.toFixed(1))}</p>
+              </div>
+          })}
+
+        </div>
+        {trailerUrl && <YouTube videoId={trailerUrl} className="youtube" opts={opts}></YouTube>}
+        {/*Container-> images */}
+
+    </div>
+  )
+```
 
 #### 👉 Build the Banner
 
