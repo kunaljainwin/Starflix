@@ -19,6 +19,17 @@ export { BASE_URL };
 export default API_KEY;
 ```
 
+## Run the application
+
+Open your cmd prompt and navigate to the project's root directory
+
+Run the command "npm install" to install all the necessary dependencies, and wait for it to finish.
+
+Then, run the command "npm start" to start the development version of the application on port 3000.
+
+If the application does not show up in a new browser tab, navigate to your browser window (or open a new one), and type the following into the address bar: localhost:3000
+
+Any updates made to the application code, will automatically show up when the localhost page is refreshed.
 ## Frontend
 
 ### API base URL
