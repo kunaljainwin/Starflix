@@ -92,7 +92,51 @@ Each of the category rows are created from the same row component. Each row has 
 
 #### 👉 Build the Youtube Player
 
-*Under construction...*
+The YouTube player that pops up when a movie is clicked is created from a third-party package called react-youtube. This provides the YouTube component that can be used to play videos specified by url.
+
+The url that is used to select the trailer for the movie clicked is provided by another third-party package called movie-trailer. Movie-trailer provides the url of the trailer based on the movie's title.
+
+Movie-trailer retrieves the trailer url and provides it to the YouTube player component which then displays the video on the page.
+
+```
+import movieTrailer from 'movie-trailer';
+import YouTube from "react-youtube";
+```
+
+The following code snippet shows the function created for the click event of the movie poster components. This is the function that uses the movie-trailer package to retrieve the url for the trailer
+```
+const handleClick=(movie)=>{
+  if (trailerUrl) {
+    setTrailerUrl('');
+  } else {
+    movieTrailer(movie?.name || movie?.title || movie?.original_title || "",{ tmdbId: movie.id }).then((url) => { 
+      const uri = new URLSearchParams(new URL(url).search);
+      setTrailerUrl( uri.get('v'));  
+    }).catch((error) => console.log(error));
+  }
+}
+```
+
+This code snippet shows where the YouTube player component is built. If there is a trailerUrl (provided by movie-trailer on click), the <YouTube> component is created and displayed in the DOM with the video from the url, playing with the options declared in the opts object.
+```
+</div>  
+  {trailerUrl && <YouTube videoId={trailerUrl} className="youtube-movie" opts={opts}></YouTube>}
+  {/*Container-> images */}
+
+</div>
+```
+
+Below is the opts object defined to set the options for the YouTube player component. This object is then passed to the YouTube component as 'opts'. The options here can be changed by simply editing the values. More documentation on the otions can be found in the documentation for the youtube-player package at https://www.npmjs.com/package/youtube-player
+```
+const opts = {
+  "height": window.screen.availHeight, "width": window.screen.availWidth, playerVars: {
+  autoplay: 1,
+  "modestbranding": true,
+  "cc_load_policy": 1,
+  "enablejsapi":0,
+  "playeralignment":"center"
+}};
+```
 
 ## Backend
 
