@@ -58,6 +58,23 @@ We’ve reduced the emphasis on the t-shirt and winning a prize. Instead, we’r
 
 To complete Hacktoberfest, you must contribute four accepted pull requests or merge requests to opted-in repos on GitHub or GitLab, but we encourage participation of all levels–you can also participate by completing a single PR/MR, making a donation to your favorite open-source project, or organizing or attending a virtual event. Participants (maintainers and contributors) who complete Hacktoberfest can choose one of two prizes: a tree planted in their name or the Hacktoberfest 2022 t-shirt, while supplies last.
 
+1. The first thing you need is Git installed on your system, if it is not installed then download it as per your OS and install it.
+Git Setup :-
+Download Git as per your OS.
+Git installation Video for Windows User
+Git installation Video for Mac User
+Git installation Video for Linux User
+Install Git
+Open the Git Bash ( Right Click )
+Run the Commands
+$ git config --global user.name "Your Name"
+
+$ git config --global user.email youremail@example.com
+
+$ git config --list
+
+You should be able to see your entered name and email under user.name & user.email
+
 # Code of Conduct
 
  [Link to Digital ocean ](https://www.digitalocean.com/blog/hacktoberfest-2022-your-mission-for-open-source)
