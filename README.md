@@ -22,7 +22,8 @@
 ## Customer Support 
 
 ```rultimatrix@gmail.com```   (Kunal jain(Scrum Master))
-
+## Resources
+https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html
 ## User manual
 The Starflix landing page resembles most other entertainment streaming apps so there should be some familiarity for the user.
 
