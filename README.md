@@ -1,5 +1,5 @@
 # [App link](https://starflix-movies-5a210.firebaseapp.com)
-## Submit 4 PR's here , and enjoy your swags💥
+## Submit 4 PR's here 
 ### Will Accept every Push which makes this project better you can even add to documentation 
 
 
